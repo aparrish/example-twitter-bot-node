@@ -1,0 +1,14 @@
+{
+  "name": "example-twitter-bot",
+  "version": "1.0.0",
+  "description": "A simple Twitter bot, for pedagogical purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allison Parrish",
+  "license": "CC0",
+  "dependencies": {
+    "node-twitter-api": "^1.6.0"
+  }
+}

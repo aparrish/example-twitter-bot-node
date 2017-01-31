@@ -1,14 +1,23 @@
 {
-  "name": "example-twitter-bot",
+  "name": "node",
   "version": "1.0.0",
-  "description": "A simple Twitter bot, for pedagogical purposes.",
-  "main": "index.js",
+  "description": "By [Allison Parrish](http://www.decontextualize.com/)",
+  "main": "get_tokens.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Allison Parrish",
-  "license": "CC0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparrish/example-twitter-bot-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparrish/example-twitter-bot-node/issues"
+  },
+  "homepage": "https://github.com/aparrish/example-twitter-bot-node#readme",
   "dependencies": {
-    "node-twitter-api": "^1.6.0"
+    "node-twitter-api": "^1.8.0"
   }
 }
