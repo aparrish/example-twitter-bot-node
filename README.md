@@ -1,16 +1,19 @@
-#An Example Twitter Bot
+#Example Twitter Bots!
 
 By [Allison Parrish](http://www.decontextualize.com/)
 
-Written for node.js. Hey! Replace the `generateTweet()` function in `bot.js`
-with a tweet-generating algorithm of your choice, and then schedule it to run
-as a cron job using a command line like this:
+Hey! This repository contains a number of simple Twitter
+bots written in node.js. You can run almost all of these bots by installing the
+appropriate libraries (with `npm install`) and then run the `bot.js` file in
+the relevant directory like so:
 
     node bot.js APP_KEY APP_SECRET ACCESS_TOKEN TOKEN_SECRET
 
 ... replacing `APP_KEY` with your application key, `APP_SECRET` with your
 application secret, `ACCESS_TOKEN` with your user's access token, and
 `TOKEN_SECRET` with your user's access token secret.
+
+Descriptions of individual bots are available in each directory.
 
 ##But where do I get these keys, tokens, and secrets?
 
