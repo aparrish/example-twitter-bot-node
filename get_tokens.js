@@ -8,7 +8,7 @@ rl.question("Your application key: ", function(appKey) {
         var twitter = new twitterAPI({
             consumerKey: appKey,
             consumerSecret: appSecret,
-            callback: ''});
+            callback: 'oob'});//The value for oauth_callback must be set to oob during the POST oauth/request_token call.
         twitter.getRequestToken(function(error, requestToken,
                 requestTokenSecret, results) {
             console.log("Log into Twitter as the user you want to authorize " +
